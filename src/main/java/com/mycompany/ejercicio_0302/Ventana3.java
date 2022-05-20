@@ -22,7 +22,7 @@ import javax.swing.JTextField;
  * @author PCG
  */
 public class Ventana3 extends JFrame {
-    private JPanel jPanel1;
+    private JPanel jPanel3;
     private List<JLabel> jLabelList;
     private List<JTextField> jTextFieldList;
     private List<JPanel> jPanelList;
@@ -40,13 +40,13 @@ public class Ventana3 extends JFrame {
         this.setLocation(200, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarComponentes();
-        this.setContentPane(this.jPanel1);
+        this.setContentPane(this.jPanel3);
     }
     
     public void iniciarComponentes(){
-        this.jPanel1 = new JPanel();
-        this.jPanel1.setBackground(Color.GRAY);
-        this.jPanel1.setLayout(new GridLayout(8,1));
+        this.jPanel3 = new JPanel();
+        this.jPanel3.setBackground(Color.GRAY);
+        this.jPanel3.setLayout(new GridLayout(8,1));
         this.iniciarPaneles();
         this.iniciarEtiquetas();
         this.iniciarTextos();
@@ -76,14 +76,14 @@ public class Ventana3 extends JFrame {
         this.jPanelList.get(6).setBackground(Color.WHITE);
         this.jPanelList.get(7).setBackground(Color.WHITE);
         
-        this.jPanel1.add(this.jPanelList.get(0));
-        this.jPanel1.add(this.jPanelList.get(1));
-        this.jPanel1.add(this.jPanelList.get(2));
-        this.jPanel1.add(this.jPanelList.get(3));
-        this.jPanel1.add(this.jPanelList.get(4));
-        this.jPanel1.add(this.jPanelList.get(5));
-        this.jPanel1.add(this.jPanelList.get(6));
-        this.jPanel1.add(this.jPanelList.get(7));
+        this.jPanel3.add(this.jPanelList.get(0));
+        this.jPanel3.add(this.jPanelList.get(1));
+        this.jPanel3.add(this.jPanelList.get(2));
+        this.jPanel3.add(this.jPanelList.get(3));
+        this.jPanel3.add(this.jPanelList.get(4));
+        this.jPanel3.add(this.jPanelList.get(5));
+        this.jPanel3.add(this.jPanelList.get(6));
+        this.jPanel3.add(this.jPanelList.get(7));
 
         
     }

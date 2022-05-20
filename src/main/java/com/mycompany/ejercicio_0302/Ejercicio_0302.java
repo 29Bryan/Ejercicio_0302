@@ -12,19 +12,19 @@ package com.mycompany.ejercicio_0302;
 public class Ejercicio_0302 {
 
     public static void main(String[] args) {
-        var ventana1= new Ventana1("Panel");
+        var ventana1= new Ventana1("Panel 1");
         ventana1.setVisible(true);
         
         var ventana2= new Ventana2("Panel 2");
         ventana2.setVisible(true);
         
-        var ventana3= new Ventana3("Panel 2");
+        var ventana3= new Ventana3("Panel 3");
         ventana3.setVisible(true);
         
-        var ventana4= new Ventana4("Panel 2");
+        var ventana4= new Ventana4("Panel 4");
         ventana4.setVisible(true);
         
-        var ventana5= new Ventana5("Panel 2");
+        var ventana5= new Ventana5("Panel 5");
         ventana5.setVisible(true);
 
     }

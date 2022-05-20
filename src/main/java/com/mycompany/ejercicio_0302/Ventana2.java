@@ -20,7 +20,7 @@ import javax.swing.JTextField;
  */
 
 public class Ventana2 extends JFrame {
-    private JPanel jPanel1;
+    private JPanel jPanel2;
     private List<JLabel> jLabelList;
     private List<JTextField> jTextFieldList;
     private List<JPanel> jPanelList;
@@ -31,13 +31,13 @@ public class Ventana2 extends JFrame {
         this.setLocation(325, 5);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarComponentes();
-        this.setContentPane(this.jPanel1);
+        this.setContentPane(this.jPanel2);
     }
     
     public void iniciarComponentes(){
-        this.jPanel1 = new JPanel();
-        this.jPanel1.setBackground(Color.GRAY);
-        this.jPanel1.setLayout(new GridLayout(10,1));
+        this.jPanel2 = new JPanel();
+        this.jPanel2.setBackground(Color.GRAY);
+        this.jPanel2.setLayout(new GridLayout(10,1));
         this.iniciarPaneles();
         this.iniciarEtiquetas();
         this.iniciarTextos();
@@ -67,16 +67,16 @@ public class Ventana2 extends JFrame {
         this.jPanelList.get(8).setBackground(Color.WHITE);
         this.jPanelList.get(9).setBackground(Color.WHITE);
         
-        this.jPanel1.add(this.jPanelList.get(0));
-        this.jPanel1.add(this.jPanelList.get(1));
-        this.jPanel1.add(this.jPanelList.get(2));
-        this.jPanel1.add(this.jPanelList.get(3));
-        this.jPanel1.add(this.jPanelList.get(4));
-        this.jPanel1.add(this.jPanelList.get(5));
-        this.jPanel1.add(this.jPanelList.get(6));
-        this.jPanel1.add(this.jPanelList.get(7));
-        this.jPanel1.add(this.jPanelList.get(8));
-        this.jPanel1.add(this.jPanelList.get(9)); 
+        this.jPanel2.add(this.jPanelList.get(0));
+        this.jPanel2.add(this.jPanelList.get(1));
+        this.jPanel2.add(this.jPanelList.get(2));
+        this.jPanel2.add(this.jPanelList.get(3));
+        this.jPanel2.add(this.jPanelList.get(4));
+        this.jPanel2.add(this.jPanelList.get(5));
+        this.jPanel2.add(this.jPanelList.get(6));
+        this.jPanel2.add(this.jPanelList.get(7));
+        this.jPanel2.add(this.jPanelList.get(8));
+        this.jPanel2.add(this.jPanelList.get(9)); 
     }
     
     public void iniciarEtiquetas(){

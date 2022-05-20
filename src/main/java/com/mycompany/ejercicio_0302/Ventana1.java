@@ -4,6 +4,7 @@
  */
 package com.mycompany.ejercicio_0302;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.HeadlessException;
@@ -38,12 +39,14 @@ public class Ventana1 extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarComponentes();
         this.setContentPane(this.jPanel1);
+        
     }
     
     public void iniciarComponentes(){
         this.jPanel1 = new JPanel();
-        this.jPanel1.setBackground(Color.GRAY);
+        this.jPanel1.setBackground(Color.WHITE);
         this.jPanel1.setLayout(new GridLayout(5,1));
+//        this.jPanel1.setLayout(new BorderLayout(1,5));
         this.iniciarPaneles();
         this.iniciarEtiquetas();
         this.iniciarTextos();
@@ -87,6 +90,10 @@ public class Ventana1 extends JFrame {
         this.jPanelList.get(1).add(this.jLabelList.get(1));
         this.jPanelList.get(2).add(this.jLabelList.get(2));  
         this.jPanelList.get(3).add(this.jLabelList.get(3));  
+        
+//        this.jPanel1.add(this.jLabelList.get(1),BorderLayout.WEST);
+//        this.jPanel1.add(this.jLabelList.get(2),BorderLayout.WEST);
+//        this.jPanel1.add(this.jLabelList.get(3),BorderLayout.WEST);
     }
     
     public void iniciarTextos(){
@@ -149,14 +156,5 @@ public class Ventana1 extends JFrame {
         this.jPanelList.get(2).add(this.jComboBoxList2.get(0));
         this.jPanelList.get(2).add(this.jComboBoxList2.get(0));
 
-////        this.jComboBox1.addItem("Sin Mascota");
-////        this.jComboBox1.addItem("Willie");
-////        this.jComboBox1.addItem("Juanito");
-////        this.jComboBox1.addItem("Tip y Tap");
-////        this.jComboBox1.addItem("Gauchito mundialito");
-////        this.jComboBox1.addItem("Naranjito");
-////        this.jComboBox1.addItem("Pique");
-////        this.jComboBox1.addItem("Ciao");
-//        this.jComboBox1.addItem("No sabe / no conoce");
     }
 }

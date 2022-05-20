@@ -20,6 +20,12 @@ public class Ejercicio_0302 {
         
         var ventana3= new Ventana3("Panel 2");
         ventana3.setVisible(true);
+        
+        var ventana4= new Ventana4("Panel 2");
+        ventana4.setVisible(true);
+        
+        var ventana5= new Ventana5("Panel 2");
+        ventana5.setVisible(true);
 
     }
 }

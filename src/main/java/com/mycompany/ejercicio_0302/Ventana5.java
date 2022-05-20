@@ -28,7 +28,7 @@ public class Ventana5 extends JFrame{
     public Ventana5(String title) throws HeadlessException {
         super(title);
         this.setSize(1200,200);
-        this.setLocation(30, 500);
+        this.setLocation(30, 560);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarComponentes();
         this.setContentPane(this.jPanel5);
@@ -78,7 +78,7 @@ public class Ventana5 extends JFrame{
          this.jLabelList.add(new JLabel("Modalidad: "));
          this.jLabelList.add(new JLabel("Periodo Académico: "));
          this.jLabelList.add(new JLabel("Fecha inicio clases: "));
-         this.jLabelList.add(new JLabel("     20/05/2022 "));         
+         this.jLabelList.add(new JLabel("28/03/2022 al 06/08/2022"));         
          
          this.jPanelList.get(0).add(this.jLabelList.get(0));
          this.jPanelList.get(1).add(this.jLabelList.get(1));
@@ -104,6 +104,8 @@ public class Ventana5 extends JFrame{
          this.jComboBoxList.get(0).addItem("MATRIZ GUAYAQUIL");
          this.jComboBoxList.get(0).addItem("MATRIZ QUITO");
          this.jComboBoxList.get(1).addItem("EL VECINO");
+         this.jComboBoxList.get(1).addItem("SUR");
+         this.jComboBoxList.get(1).addItem("CENTENARIO");
          this.jComboBoxList.get(2).addItem("Seleccione una opción");
          this.jComboBoxList.get(2).addItem("ARQUITECTURA");
          this.jComboBoxList.get(2).addItem("ECONOMIA");
@@ -118,10 +120,10 @@ public class Ventana5 extends JFrame{
          this.jComboBoxList.get(3).addItem("INGENIERIA MECATRONICA[Rediseño]");
          this.jComboBoxList.get(4).addItem("Seleccione una opción");
          this.jComboBoxList.get(4).addItem("PRESENCIAL");
-         this.jComboBoxList.get(4).addItem("SEMIPRESENCIAL");
          this.jComboBoxList.get(4).addItem("VIRTUAL");
+         this.jComboBoxList.get(4).addItem("VIRTUAL");
+         this.jComboBoxList.get(5).addItem("2021-2021");
          this.jComboBoxList.get(5).addItem("2021-2022");
-         this.jComboBoxList.get(5).addItem("2022-2023");
         
         this.jPanelList.get(0).add(this.jComboBoxList.get(0));
         this.jPanelList.get(1).add(this.jComboBoxList.get(1)); 

@@ -27,7 +27,7 @@ public class Ventana2 extends JFrame {
     
     public Ventana2(String title) throws HeadlessException {
         super(title);
-        this.setSize(350,300);
+        this.setSize(450,300);
         this.setLocation(400, 30);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarComponentes();
@@ -84,25 +84,41 @@ public class Ventana2 extends JFrame {
         
         this.jLabelList.add(new JLabel("Datos Personales"));
         this.jLabelList.add(new JLabel("Apellidos: "));
+        this.jLabelList.add(new JLabel("Peñaranda Arcentales"));
         this.jLabelList.add(new JLabel("Nombres: "));
+        this.jLabelList.add(new JLabel("Bryan Geovanny"));
         this.jLabelList.add(new JLabel("Nacionalidad: "));
+        this.jLabelList.add(new JLabel("ECUATORIANA"));
         this.jLabelList.add(new JLabel("Genero: "));
+        this.jLabelList.add(new JLabel("Masculino "));
         this.jLabelList.add(new JLabel("Correo electronico personal: "));
+        this.jLabelList.add(new JLabel("bryan29@hotmail.com"));
         this.jLabelList.add(new JLabel("Fecha de Nacimiento: "));
+        this.jLabelList.add(new JLabel("29-10-2000"));
         this.jLabelList.add(new JLabel("Telefono Domicilio: "));
+        this.jLabelList.add(new JLabel("072413818 "));
         this.jLabelList.add(new JLabel("Telefono Celular: "));
+        this.jLabelList.add(new JLabel("0978624589"));
         this.jLabelList.add(new JLabel("Whatsapp: "));
         
         this.jPanelList.get(0).add(this.jLabelList.get(0));
         this.jPanelList.get(1).add(this.jLabelList.get(1));
-        this.jPanelList.get(2).add(this.jLabelList.get(2));  
-        this.jPanelList.get(3).add(this.jLabelList.get(3));  
-        this.jPanelList.get(4).add(this.jLabelList.get(4));
-        this.jPanelList.get(5).add(this.jLabelList.get(5));
-        this.jPanelList.get(6).add(this.jLabelList.get(6));  
-        this.jPanelList.get(7).add(this.jLabelList.get(7));
-        this.jPanelList.get(8).add(this.jLabelList.get(8));  
-        this.jPanelList.get(9).add(this.jLabelList.get(9));
+        this.jPanelList.get(1).add(this.jLabelList.get(2));
+        this.jPanelList.get(2).add(this.jLabelList.get(3));  
+        this.jPanelList.get(2).add(this.jLabelList.get(4));
+        this.jPanelList.get(3).add(this.jLabelList.get(5));
+        this.jPanelList.get(3).add(this.jLabelList.get(6));
+        this.jPanelList.get(4).add(this.jLabelList.get(7));
+        this.jPanelList.get(4).add(this.jLabelList.get(8));
+        this.jPanelList.get(5).add(this.jLabelList.get(9));
+        this.jPanelList.get(5).add(this.jLabelList.get(10));
+        this.jPanelList.get(6).add(this.jLabelList.get(11));  
+        this.jPanelList.get(6).add(this.jLabelList.get(12)); 
+        this.jPanelList.get(7).add(this.jLabelList.get(13));
+        this.jPanelList.get(7).add(this.jLabelList.get(14));
+        this.jPanelList.get(8).add(this.jLabelList.get(15)); 
+        this.jPanelList.get(8).add(this.jLabelList.get(16));  
+        this.jPanelList.get(9).add(this.jLabelList.get(17));
     }
     
     public void iniciarTextos(){
@@ -119,24 +135,24 @@ public class Ventana2 extends JFrame {
         this.jTextFieldList.add(new JTextField());
         this.jTextFieldList.add(new JTextField());
 
-        this.jTextFieldList.get(1).setColumns(10);
-        this.jTextFieldList.get(2).setColumns(10);
-        this.jTextFieldList.get(3).setColumns(10);
-        this.jTextFieldList.get(4).setColumns(10);
-        this.jTextFieldList.get(5).setColumns(10);
-        this.jTextFieldList.get(6).setColumns(10);
-        this.jTextFieldList.get(7).setColumns(10);
-        this.jTextFieldList.get(8).setColumns(10);
+//        this.jTextFieldList.get(1).setColumns(10);
+//        this.jTextFieldList.get(2).setColumns(10);
+//        this.jTextFieldList.get(3).setColumns(10);
+//        this.jTextFieldList.get(4).setColumns(10);
+//        this.jTextFieldList.get(5).setColumns(10);
+//        this.jTextFieldList.get(6).setColumns(10);
+//        this.jTextFieldList.get(7).setColumns(10);
+//        this.jTextFieldList.get(8).setColumns(10);
         this.jTextFieldList.get(9).setColumns(10);
         
-        this.jPanelList.get(1).add(this.jTextFieldList.get(1));
-        this.jPanelList.get(2).add(this.jTextFieldList.get(2));
-        this.jPanelList.get(3).add(this.jTextFieldList.get(3));
-        this.jPanelList.get(4).add(this.jTextFieldList.get(4));
-        this.jPanelList.get(5).add(this.jTextFieldList.get(5));
-        this.jPanelList.get(6).add(this.jTextFieldList.get(6));
-        this.jPanelList.get(7).add(this.jTextFieldList.get(7));
-        this.jPanelList.get(8).add(this.jTextFieldList.get(8));
+//        this.jPanelList.get(1).add(this.jTextFieldList.get(1));
+//        this.jPanelList.get(2).add(this.jTextFieldList.get(2));
+//        this.jPanelList.get(3).add(this.jTextFieldList.get(3));
+//        this.jPanelList.get(4).add(this.jTextFieldList.get(4));
+//        this.jPanelList.get(5).add(this.jTextFieldList.get(5));
+//        this.jPanelList.get(6).add(this.jTextFieldList.get(6));
+//        this.jPanelList.get(7).add(this.jTextFieldList.get(7));
+//        this.jPanelList.get(8).add(this.jTextFieldList.get(8));
         this.jPanelList.get(9).add(this.jTextFieldList.get(9));
     }
 }

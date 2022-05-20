@@ -35,7 +35,7 @@ public class Ventana4 extends JFrame{
 
     public Ventana4(String title) throws HeadlessException {
         super(title);
-        this.setSize(700,600);
+        this.setSize(700,550);
         this.setLocation(600, 30);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarComponentes();
@@ -153,8 +153,8 @@ public class Ventana4 extends JFrame{
          this.jComboBoxList.get(1).addItem("DIURNO");
          this.jComboBoxList.get(1).addItem("DESPERTINO");
          this.jComboBoxList.get(1).addItem("NOCTURNO");
-         this.jComboBoxList.get(2).addItem("NO");
          this.jComboBoxList.get(2).addItem("SI");
+         this.jComboBoxList.get(2).addItem("NO");
         
         this.jPanelList.get(28).add(this.jComboBoxList.get(0));
         this.jPanelList.get(31).add(this.jComboBoxList.get(1)); 

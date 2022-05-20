@@ -46,12 +46,10 @@ public class Ventana1 extends JFrame {
         this.jPanel1 = new JPanel();
         this.jPanel1.setBackground(Color.WHITE);
         this.jPanel1.setLayout(new GridLayout(5,1));
-//        this.jPanel1.setLayout(new BorderLayout(1,5));
         this.iniciarPaneles();
         this.iniciarEtiquetas();
         this.iniciarTextos();
         this.iniciarBotones();
-//        this.iniciarChecks();
         this.iniciarCombo();
     }
     
@@ -90,10 +88,6 @@ public class Ventana1 extends JFrame {
         this.jPanelList.get(1).add(this.jLabelList.get(1));
         this.jPanelList.get(2).add(this.jLabelList.get(2));  
         this.jPanelList.get(3).add(this.jLabelList.get(3));  
-        
-//        this.jPanel1.add(this.jLabelList.get(1),BorderLayout.WEST);
-//        this.jPanel1.add(this.jLabelList.get(2),BorderLayout.WEST);
-//        this.jPanel1.add(this.jLabelList.get(3),BorderLayout.WEST);
     }
     
     public void iniciarTextos(){
@@ -117,22 +111,6 @@ public class Ventana1 extends JFrame {
         
         this.jPanelList.get(4).add(this.jButtonList.get(0));
     }
-    
-//    public void iniciarChecks(){
-//        this.jCheckboxList = new ArrayList<>();
-//        this.jCheckboxList.add(new JCheckBox("Adidas"));
-//        this.jCheckboxList.add(new JCheckBox("Nike"));
-//        this.jCheckboxList.add(new JCheckBox("Coca Cola"));
-//        this.jCheckboxList.add(new JCheckBox("Pepsi"));
-//        this.jCheckboxList.add(new JCheckBox("FIFA",true));      
-//        
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(0));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(1));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(2));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(3));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(4));
-//        
-//    }
     
     public void iniciarCombo(){
         

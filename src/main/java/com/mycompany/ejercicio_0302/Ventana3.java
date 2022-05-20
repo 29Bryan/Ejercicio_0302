@@ -128,32 +128,7 @@ public class Ventana3 extends JFrame {
         this.jPanelList.get(1).add(this.jTextFieldList.get(1));
         this.jPanelList.get(7).add(this.jTextFieldList.get(7));
     }
-    
-//    public void iniciarBotones(){
-//        this.jButtonList = new ArrayList<>(); 
-//        this.jButtonList.add(new JButton());
-//
-//        this.jButtonList.get(0).setText("Ingrese");
-//        
-//        this.jPanelList.get(4).add(this.jButtonList.get(0));
-//    }
-    
-//    public void iniciarChecks(){
-//        this.jCheckboxList = new ArrayList<>();
-//        this.jCheckboxList.add(new JCheckBox("Adidas"));
-//        this.jCheckboxList.add(new JCheckBox("Nike"));
-//        this.jCheckboxList.add(new JCheckBox("Coca Cola"));
-//        this.jCheckboxList.add(new JCheckBox("Pepsi"));
-//        this.jCheckboxList.add(new JCheckBox("FIFA",true));      
-//        
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(0));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(1));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(2));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(3));
-//        this.jPanelList.get(3).add(this.jCheckboxList.get(4));
-//        
-//    }
-    
+
     public void iniciarCombo(){
         
         this.jComboBoxList = new ArrayList<>(); 

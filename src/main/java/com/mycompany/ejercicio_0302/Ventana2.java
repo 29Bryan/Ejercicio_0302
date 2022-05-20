@@ -135,24 +135,8 @@ public class Ventana2 extends JFrame {
         this.jTextFieldList.add(new JTextField());
         this.jTextFieldList.add(new JTextField());
 
-//        this.jTextFieldList.get(1).setColumns(10);
-//        this.jTextFieldList.get(2).setColumns(10);
-//        this.jTextFieldList.get(3).setColumns(10);
-//        this.jTextFieldList.get(4).setColumns(10);
-//        this.jTextFieldList.get(5).setColumns(10);
-//        this.jTextFieldList.get(6).setColumns(10);
-//        this.jTextFieldList.get(7).setColumns(10);
-//        this.jTextFieldList.get(8).setColumns(10);
         this.jTextFieldList.get(9).setColumns(10);
-        
-//        this.jPanelList.get(1).add(this.jTextFieldList.get(1));
-//        this.jPanelList.get(2).add(this.jTextFieldList.get(2));
-//        this.jPanelList.get(3).add(this.jTextFieldList.get(3));
-//        this.jPanelList.get(4).add(this.jTextFieldList.get(4));
-//        this.jPanelList.get(5).add(this.jTextFieldList.get(5));
-//        this.jPanelList.get(6).add(this.jTextFieldList.get(6));
-//        this.jPanelList.get(7).add(this.jTextFieldList.get(7));
-//        this.jPanelList.get(8).add(this.jTextFieldList.get(8));
+      
         this.jPanelList.get(9).add(this.jTextFieldList.get(9));
     }
 }

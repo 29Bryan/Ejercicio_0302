@@ -26,8 +26,6 @@ public class Ventana3 extends JFrame {
     private List<JLabel> jLabelList;
     private List<JTextField> jTextFieldList;
     private List<JPanel> jPanelList;
-//    private List<JButton> jButtonList;
-//    private List<JCheckBox> jCheckboxList;
     private List<JComboBox> jComboBoxList;
     private List<JComboBox> jComboBoxList2;
     private List<JComboBox> jComboBoxList3;
@@ -50,8 +48,6 @@ public class Ventana3 extends JFrame {
         this.iniciarPaneles();
         this.iniciarEtiquetas();
         this.iniciarTextos();
-//        this.iniciarBotones();
-//        this.iniciarChecks();
         this.iniciarCombo();
     }
     

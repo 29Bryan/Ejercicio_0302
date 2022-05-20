@@ -141,27 +141,27 @@ public class Ventana4 extends JFrame{
          this.jPanelList.get(36).add(this.jLabelList.get(19),BorderLayout.EAST);
      }    
      
-     public void iniciarCombo(){
-         this.jComboBoxList= new ArrayList<>();
-         this.jComboBoxList.add(new JComboBox());
-         this.jComboBoxList.add(new JComboBox());
-         this.jComboBoxList.add(new JComboBox());
+    public void iniciarCombo(){
+        this.jComboBoxList= new ArrayList<>();
+        this.jComboBoxList.add(new JComboBox());
+        this.jComboBoxList.add(new JComboBox());
+        this.jComboBoxList.add(new JComboBox());
        
-         this.jComboBoxList.get(0).addItem("NO");
-         this.jComboBoxList.get(0).addItem("SI");
-         this.jComboBoxList.get(1).addItem("Jornadas disponibles");
-         this.jComboBoxList.get(1).addItem("DIURNO");
-         this.jComboBoxList.get(1).addItem("DESPERTINO");
-         this.jComboBoxList.get(1).addItem("NOCTURNO");
-         this.jComboBoxList.get(2).addItem("SI");
-         this.jComboBoxList.get(2).addItem("NO");
+        this.jComboBoxList.get(0).addItem("NO");
+        this.jComboBoxList.get(0).addItem("SI");
+        this.jComboBoxList.get(1).addItem("Seleccione una Opcion");
+        this.jComboBoxList.get(1).addItem("DIURNO");
+        this.jComboBoxList.get(1).addItem("DESPERTINO");
+        this.jComboBoxList.get(1).addItem("NOCTURNO");
+        this.jComboBoxList.get(2).addItem("SI");
+        this.jComboBoxList.get(2).addItem("NO");
         
         this.jPanelList.get(28).add(this.jComboBoxList.get(0));
         this.jPanelList.get(31).add(this.jComboBoxList.get(1)); 
         this.jPanelList.get(37).add(this.jComboBoxList.get(2));
      }
      
-     public void iniciarBoton(){
+    public void iniciarBoton(){
        this.jButtonList = new ArrayList<>();
        this.jButtonList.add(new JButton());
        this.jButtonList.add(new JButton());
@@ -173,7 +173,7 @@ public class Ventana4 extends JFrame{
        this.jPanelList.get(39).add(this.jButtonList.get(1));
      }
      
-     public void iniciarTexto(){
+    public void iniciarTexto(){
         this.jTextFieldList= new ArrayList<>();
         this.jTextFieldList.add(new JTextField ());
         this.jTextFieldList.add(new JTextField ());
